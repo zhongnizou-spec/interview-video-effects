@@ -1,0 +1,60 @@
+{
+  "segments": [
+    {
+      "start": 0,
+      "end": 60,
+      "name": "开场：葡萄酒与矿业前景",
+      "theme": "wine_agriculture",
+      "primary_color": [128, 0, 128],
+      "secondary_color": [100, 150, 100],
+      "effects": ["particles", "corner_vine", "edge_glow"],
+      "opacity": 0.2,
+      "description": "介绍两个行业都有前景但缺人的现象"
+    },
+    {
+      "start": 60,
+      "end": 160,
+      "name": "实践性很强，不能纸上谈兵",
+      "theme": "practical_skills",
+      "primary_color": [192, 192, 192],
+      "secondary_color": [255, 215, 0],
+      "effects": ["sparkle_particles", "edge_glow"],
+      "opacity": 0.25,
+      "description": "强调这些职业需要实践经验"
+    },
+    {
+      "start": 160,
+      "end": -1,
+      "name": "天生我才必有用 - 激励主题",
+      "theme": "inspiration",
+      "primary_color": [255, 215, 0],
+      "secondary_color": [255, 255, 150],
+      "effects": ["star_burst", "pulse_glow", "particles"],
+      "opacity": 0.3,
+      "description": "激励性的结尾：每个人都有自己的价值"
+    }
+  ],
+  "effect_presets": {
+    "light": {
+      "particle_opacity": 0.15,
+      "edge_glow_opacity": 0.1,
+      "corner_opacity": 0.2,
+      "avoid_center": true,
+      "particle_count": 12
+    },
+    "medium": {
+      "particle_opacity": 0.25,
+      "edge_glow_opacity": 0.15,
+      "corner_opacity": 0.3,
+      "avoid_center": true,
+      "particle_count": 15
+    },
+    "vibrant": {
+      "particle_opacity": 0.35,
+      "edge_glow_opacity": 0.2,
+      "corner_opacity": 0.4,
+      "avoid_center": true,
+      "particle_count": 20
+    }
+  }
+}

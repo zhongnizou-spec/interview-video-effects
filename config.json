@@ -1,0 +1,13 @@
+{
+  "input_video": "C:\\Users\\zoez\\OneDrive\\Desktop\\1.1 Mark's traineeship\\mark 采访\\5月27日(1).mp4",
+  "output_video": "output_enhanced.mp4",
+  "effect_preset": "light",
+  "fps": 24,
+  "codec": "libx264",
+  "audio_codec": "aac",
+  "processing": {
+    "verbose": true,
+    "preview": false,
+    "threads": 4
+  }
+}
